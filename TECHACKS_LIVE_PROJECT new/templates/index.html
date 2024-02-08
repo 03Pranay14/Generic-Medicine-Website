@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techacks Final Project Team Froza</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <navbar class="nav">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <a href="#" class="logo">GoGeneric</a>
+        <ul class="nav-links">
+            <i class="uil uil-times navCloseBtn"></i>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="{{ url_for('search1') }}">Compare</a></li>
+            <li><a href="#">Govt. Schemes</a></li>
+            <li><a href="{{ url_for('testimonial') }}">Testimonial</a></li>
+        </ul>
+        <i class="uil uil-search search-icon" id="searchIcon"></i>
+        <div class="search-box">
+            <i class="uil uil-search search-icon"></i>
+            <input type="text" placeholder="Search here" />
+        </div>
+    </navbar>
+</header>
+<section>
+    <div class="main">
+        <div class="main-page">
+            <h1 class="main-page-h1">AYUSHMAN BHARAT DIGITAL<br> MISSION</h1>
+            <p class="main-page-p">A generic website serves as a virtual space, facilitating information dissemination, interaction, and commerce <br> User-friendly interfaces, responsive design, and relevant content enhance user experience. Customization options<br>and security features contribute to a website's effectiveness in diverse online environments</p>
+            <a href="" class="main-page-a">Read More >></a>
+        </div>
+        <div class="lazyload-wrapper">
+            <img class="images" src="https://abdm.gov.in:8081/uploads/Whats_App_Image_2023_12_01_at_16_22_30_1_e528c90e67.jpeg" alt="First slide 0">
+        </div>
+    </div>
+<div>
+       <a href="{{ url_for('search1') }}">
+       <button class="btn">Compare Medicines</button>
+       </a>
+       <button class="btn2">Apply for AYUSHMAN Card</button>
+</div>
+  <br>
+
+
+
+    <p class="marquee-text">"Explore government schemes—empowering communities, fostering growth, and creating opportunities for a brighter future. Stay informed!"
+
+
+
+
+
+    </p>
+
+    <div class="container">
+        <h1 class="heading1">GOVT SCHEMES</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://amkresourceinfo.com/wp-content/uploads/2020/11/photo_2020-11-20_12-51-54-750x361.jpg" alt="nothing">
+                <h3>National Programme for the Health Care for the Elderly (NPHCE)</h3>
+                <p>NPHCE addresses health issues of elderly, aligning with UNCRPD to fulfill goals.</p>
+                <a href="https://main.mohfw.gov.in/?q=major-programmes/Non-Communicable-Diseases/Non-Communicable-Diseases-1" class="btn3">VISIT</a>
+                <a href="https://main.mohfw.gov.in/sites/default/files/Detailed%20Breif%20of%20NPHCE.pdf" class="btn3">DETAILS</a>
+            </div>
+  
+            <div class="box">
+                <img src="https://www.freshersnow.com/wp-content/uploads/2021/11/Central-Government-Health-Scheme.png" alt="nothing">
+                <h3>National Oral Health programme</h3>
+                <p>IDA's initiative aims for optimal oral health, addressing dental diseases effectively by 2020</p>
+                <a href="http://nohp.org.in/#/Home" class="btn3">VISIT</a>
+                <a href="#" class="btn3">DETAILS</a>
+            </div>
+  
+            <div class="box">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.DoNERs5oi2kriVwC27yrQwAAAA&pid=Api&P=0&h=180" alt="nothing">
+                <h3>National Programme for Prevention and Control of Deafness</h3>
+                <p>Hearing health crucial for communication, education, and well-being of individuals</p>
+                <a href="https://main.mohfw.gov.in/?q=Major-Programmes/Non-Communicable-Diseases-Injury-Trauma/National-Programme-for-Prevention-and-Control-of-Deafness-NPPCD" class="btn3">VISIT</a>
+                <a href="https://main.mohfw.gov.in/sites/default/files/51892751619025258383.pdf" class="btn3">DETAILS</a>
+            </div>
+  
+            <div class="box">
+                <img src="https://st.adda247.com/https://adda247jobs-wp-assets-adda247.s3.ap-south-1.amazonaws.com/jobs/wp-content/uploads/sites/4/2022/08/04172218/Anaemia-Mukt-Bharat-AMB-Strategy-01.png" alt="nothing">
+                <h3>National Iron Plus Initiative for Anaemia Control</h3>
+                <p>NIPI addresses Iron Deficiency Anaemia across life stages for better health.</p>
+                <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6886130/" class="btn3">VISIT</a>
+                <a href="https://nhm.hp.gov.in/storage/app/media/uploaded-files/2_NIPI_Overview_of_Programme.pdf" class="btn3">DETAILS</a>
+            </div>
+  
+            <div class="box">
+                <img src="https://www.impactguru.com/info/wp-content/uploads/2023/04/Navjaat-Shishu-Suraksha-Karyakram-NSSK-1200-x-800.jpg" alt="nothing">
+                <h3>Navjaat Shishu Suraksha Karyakram (NSSK)</h3>
+                <p>Upgraded NSSK training enhances care for newborns, health workers, and doctors.</p>
+                <a href="https://nhm.gov.in/index4.php?lang=1&level=0&linkid=495&lid=765" class="btn3">VISIT</a>
+                <a href="https://nhm.gov.in/images/pdf/programmes/child-health/guidelines/NSSK/NSSK-Resource-Manual.pdf" class="btn3">DETAILS</a>
+            </div>
+  
+            <div class="box">
+                <img src="https://image.slidesharecdn.com/nppcf-160314194702/95/nppcf-1-638.jpg?cb=1457984832" alt="nothing">
+                <h3>National Programme for Prevention and Control of Fluorosis</h3>
+                <p>NPPCF combats fluorosis,in about 195 districts .</p>
+                <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6886130/" class="btn3">VISIT</a>
+                <a href="https://main.mohfw.gov.in/sites/default/files/Operational%20Guidelines%20National%20Oral%20Health%20Programme%20%28NOHP%29.pdf" class="btn3">DETAILS</a>
+            </div>
+  
+            <div class="box">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.YBiETmOMrwPi-mwK-JkPIgHaCp&pid=Api&P=0&h=180" alt="nothing">
+                <h3>Mission Indradhanush (MI)</h3>
+                <p>Enhances maternal health services through dedicated public facilities.</p>
+                <a href="https://nhm.gov.in/index1.php?lang=1&level=2&sublinkid=824&lid=220" class="btn3">VISIT</a>
+                <a href="https://main.mohfw.gov.in/sites/default/files/216846291201489665182.pdf" class="btn3">DETAILS</a>
+            </div>
+  
+            <div class="box">
+                <img src="https://i.ytimg.com/vi/8zOanUhS3WM/maxresdefault.jpg" alt="nothing">
+                <h3>Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)</h3>
+                <p>PMSMA enhances maternal care monthly diagnostics.</p>
+                <a href="https://pmsma.mohfw.gov.in/" class="btn3">VISIT</a>
+                <a href="https://nhm.hp.gov.in/storage/app/media/uploaded-files/PMSMA-Guidelines.pdf" class="btn3">DETAILS</a>
+            </div>
+        </div>
+    
+    <div class="center">
+      <button class="btn99"><a href="{{ url_for('testimonial') }}">Testimonial</a></button>
+  </div>
+
+    <div class="heading">
+        <h1>ABOUT US</h1>
+        <p>Introducing a comprehensive website offering vital information on government schemes and generic medicines. Navigate effortlessly to access details, eligibility criteria, and application procedures for various schemes. Stay informed about cost-effective generic medications, their benefits, and availability. Empowering users with knowledge for informed decisions on healthcare and government assistance.</p>
+    </div>
+    <div class="container_24">
+        <section class="about">
+            <div class="about-image">
+                <img src="https://www.careerindiainfo.in/wp-content/uploads/2020/04/Ayushman-Bharat-Scheme-696x420.jpg" alt="medicine">
+            </div>
+            <div class="about-content">
+                <h2>GET MEDICAL SOLUTION</h2>
+                <p>
+                    Introducing a dynamic website dedicated to empowering users with comprehensive insights into government schemes and generic medicines. Seamlessly navigating through the user-friendly interface, discover in-depth information on diverse government initiatives, including eligibility criteria, application processes, and benefits. Explore an extensive database on cost-effective generic medicines, highlighting their advantages and availability. This platform aims to enhance public awareness, enabling informed decisions for better healthcare. With a commitment to user education, the website strives to foster a healthier society by providing valuable knowledge on government assistance and affordable medications. Engage with the content for a deeper understanding of schemes and medicines, promoting a community well-versed in healthcare options and governmental support.</p>
+                <a href="" class="read-more">READ MORE</a>
+            </div>
+        </section>
+    </div>
+    <!-- Footer -->
+
+    <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Responsive footer</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<footer>
+  <div class="content">
+    <div class="top">
+      <div class="logo-details">
+        <i class="fab fa-slack"></i>
+        <span class="logo_name">GoGeneric</span>
+      </div>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="link-boxes">
+      <ul class="boxes">
+        <li class="link_name">Company</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Get started</a></li>
+      </ul>
+      <ul class="boxes">
+        <li class="link_name">Services</li>
+        <li><a href="#">Compare Medicine</a></li>
+        <li><a href="#">Government Schemes</a></li>
+      </ul>
+      <ul class="boxes input-boxes">
+        <li class="link_name">Send your Query</li>
+        <li><input type="text" placeholder="Enter your email"></li>
+        <li><input type="text" placeholder="Enter your query"></li>
+        <li><input type="button" value="Send"></li>
+      </ul>
+    </div>
+  </div>
+  <div class="bottom-details">
+    <div class="bottom_text">
+      <span class="copyright_text">Copyright © 2024 <a href="#">GoGeneric </a>All rights reserved</span>
+      <span class="policy_terms">
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms & condition</a>
+      </span>
+    </div>
+  </div>
+</footer>
+  
+</body>
+</html>
+
+
+</section>
+
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="translate.js"></script>
+</body>
+</html>

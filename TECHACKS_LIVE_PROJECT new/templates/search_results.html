@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+</head>
+<title>Search Results</title>
+</head>
+<body style="font-family: 'Arial', sans-serif; background-color: #f8f8f8; color: #333;">
+
+    <h1 style="text-align: center; font-weight: bold; border-bottom: 2px solid #333; padding-bottom: 10px; margin-bottom: 20px; background-color: #4682b4; color: #fff; padding: 20px;">Search Results for '{{ search_term }}'</h1>
+    
+    <ul style="list-style: none; padding: 0; text-align: center; display: flex; flex-wrap: wrap; justify-content: center;">
+        {% for row in rows %}
+            <li style="margin-bottom: 20px; margin-right: 20px;">
+                <div style="border: 2px solid #ddd; padding: 15px; border-radius: 10px; background-color: #fff;">
+                    <img src="{{ row[2] }}" alt="{{ row[0] }} Image" width="200" height="200" style="border: 2px solid #ddd; border-radius: 10px; margin-bottom: 10px;">
+                    <br>
+                    <span style="color: #555; font-weight: bold; font-size: 20px;">{{ row[0] }}</span>
+                    <br>
+                    <br>
+                    (<span style="color: #000000; font-size: 20px;">{{ row[3] }}</span>)
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
+
+</ul>
+
+</ul>
+
+
+
+
+        </ul>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+

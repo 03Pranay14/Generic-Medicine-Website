@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+	background:url("https://t4.ftcdn.net/jpg/02/90/85/99/360_F_290859958_9ocQpqUNLS646rOy6M0uZz9YHIrXfa2f.jpg");
+
+}
+
+.logo{
+	margin: auto;
+	width: 600px;
+	font-size: 55px;
+	padding: 0;
+	justify-content: center;
+}
+
+h1{
+	padding-top: 100px;
+	color: #000000;
+}
+
+
+.container{
+	position: absolute;
+	left: 48%;
+	top: 45%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+}
+
+input{
+	outline: none;
+	box-sizing: border-box;
+	height: 60px;
+	width: 0px;
+	padding: 0 20px;
+	color: black;
+	border-radius: 50px;
+	font-size: 20px;
+	border: 1px solid #D50000;
+	transition: all .7s ease; 
+}
+::placeholder{
+	color: rgb(0, 0, 0);
+}
+.btn{
+	position: absolute;
+	right: 0px;
+    top: 0px;
+	width: 80px;
+	height: 80px;
+	background: #D50000;
+	line-height: 80px;
+	border-radius: 50px;
+	text-align: center;
+	cursor: pointer;
+	transition: 1s;
+}
+.btn i{
+	font-size: 25px;
+	color: white;
+	line-height: 80px;
+	transition: all .7s ease;
+}
+.container:hover input{
+	width: 700px;
+}
+.container:hover i{
+	transform: rotate(-360deg);
+}
+.btn:hover{
+	background: #cc0000;
+}
+
+.circles{
+	position: absolute;
+	margin: auto;
+	padding: 320px;
+}
+
+.crc {
+	display: inline;
+	justify-content: space-evenly;
+	width: 20px;
+}
