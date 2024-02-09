@@ -11,9 +11,10 @@ Welcome to our Generic Medicine Website! This website is designed to provide inf
 * Flask web framework
 # How to Use:
 * Clone this repository to your local machine:
-git clone https://github.com/yourusername/generic-medicine-website.git
+git clone 
 * Navigate to the project directory:
 cd generic-medicine-website
+https://github.com/03Pranay14/Generic-Medicine-Website
 * Install dependencies:
 pip install -r requirements.txt
 * Run the Flask application:
